@@ -10,6 +10,7 @@ class Second extends StatefulWidget {
 class _SecondState extends State<Second> {
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return Container();
   }
 }
@@ -25,3 +26,10 @@ class _SecondState extends State<Second> {
 ///
 ///
 ///
+=======
+    return Container(
+      child: Container(),
+    );
+  }
+}
+>>>>>>> a910111... second commit
